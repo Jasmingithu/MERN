@@ -1,0 +1,52 @@
+.appointment {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    background-image: url('https://cdn.pixabay.com/photo/2018/05/16/11/28/heart-3405559_1280.jpg')
+    /*https://pngimg.com/uploads/doctor/doctor_PNG16021.png*/
+  }
+  .appointment-container{
+    align-items: center;
+  background-color: white;
+  padding: 20px;
+ 
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+  width: 300px;
+  text-align: center;
+}
+h2 {
+  color: #a9490e;
+}
+form {
+  display: flex;
+  flex-direction: column;
+ 
+}
+label {
+  margin-top: 10px;
+  font-weight: bold;
+  color: rgb(29, 60, 199);
+}
+input {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline-color: #1877f2;
+}
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+select{
+  height: 40px;
+}
